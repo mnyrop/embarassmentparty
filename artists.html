@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> embarrassment_party / artists_in_residence </title>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <link rel="stylesheet" type="text/css" href="tooltip.css"/>
+    <script type="text/javascript" src="sparkles.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"> </script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"> </script>
+    <script type="text/javascript" src="jqfloat.js"> </script>
+    <script type="text/javascript" src="jqfloat.min.js"> </script>
+    <script type="text/javascript" src="tooltip.js"> </script>
+  </head>
+
+  <body>
+      <!-- text links -->
+      <h1><a href="index.html" class="links"> e m b a r r a s s m e n t _ p a r t y </a></h1>
+      <h2><a href="info.html" class="links"> / i n f o </a></h2>
+      <h3><a href="artists.html" class="links"> / a r t i s t s _ i n _ r e s i d e n c e </a></h3>
+      
+      <!-- contact links -->
+      <a href="https://www.facebook.com/embarrassmentparty.biz">
+        <img src="fb.png" id="fb" class="cgiffy"/>
+      </a>
+      <a href="mailto:maestro@embarrassmentparty.biz">
+        <img src="mail.png" id="mail" class="cgiffy"/>
+      </a>
+      <a href="e_p.zip">
+        <img src="save.png" id="save" class="cgiffy"/>
+      </a>
+
+      <!-- content -->
+      <a href="annelyse.html"><img src="annelyse.jpg" id="annelyse" class="artgiffy masterTooltip" title="annelyse gelman"/></a>
+      <a href="cristine.html"><img src="cristine.jpg" id="cristine" class="artgiffy masterTooltip" title="cristine brache"/></a>
+      <a href="emilio.html"><img src="emilio.jpg" id="emilio" class="artgiffy masterTooltip" title="emilio vavarella"/></a>
+      <a href="jesse.html"><img src="jesse.jpg" id="jesse" class="artgiffy masterTooltip" title="jesse darling"/></a>
+      <a href="marii.html"><img src="marii.jpg" id="marii" class="artgiffy masterTooltip" title="marii nyr&ouml;p"/></a>
+      <a href="mehron.html"><img src="mehron.jpg" id="mehron" class="artgiffy masterTooltip" title="mehron abdollmohammadi"/></a>
+      <a href="sanguine.html"><img src="sanguine.jpg" id="sanguine" class="artgiffy masterTooltip" title="sanguine cb"/></a>
+      <a href="viktor.html"><img src="viktor.jpg" id="viktor" class="artgiffy masterTooltip" title="viktor timofeev"/></a>
+
+      <p id="cc"> embarrassment party by Emilio Vavarella is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. </p>
+
+      <script>
+        $(document).ready(function() {
+          $('.links').jqFloat({
+            width: 20,
+            height: 20,
+            speed: 1500
+          });
+          $('.artgiffy').jqFloat({
+            width: 80,
+            height: 80,
+            speed: 3100
+          });
+          $('.cgiffy').jqFloat({
+            width: 30,
+            height: 30,
+            speed: 5100
+          });
+        });
+      </script>
+  </body>
+</html>

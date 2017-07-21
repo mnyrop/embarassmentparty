@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Cutive+Mono);	
+
+body{
+	font-family:"Cutive Mono";
+	color:#000;
+	background-color: #fff;
+}
+
+#container{width:70%;height:100%;top:0%;right:0%;}
+
+::-webkit-scrollbar              { display:none; }
+::-webkit-scrollbar-track        { display:none; }
+::-webkit-scrollbar-track-piece  { display:none; }
+::-webkit-scrollbar-thumb        { display:none; }
+
+::selection {background:transparent;}
+::-moz-selection {background:transparent;}
+
+#textbox{
+	position:fixed;
+	width:60%;
+	left:30%;
+	top:10%;
+}
+#navbar{
+	position:fixed;
+	width:20%;
+	top:20px;
+	left:2%;
+	text-align:left;
+	font-size:.5em;
+	color: #000;
+	z-index: 100000;
+	cursor: auto !important;
+}
+#navbar a{color:#000;text-decoration:none;opacity:.8;}
+#navbar a:hover{text-decoration:underline;}
+#navbar h2{font-size:4.5em;margin-bottom:0px;}
+#navbar h3{font-size:2em;margin-top:0px;margin-bottom:0px;}
+
+h1{font-size:40px;font-weight:normal;}
+h2{font-size:30px;font-weight:normal;}
+p{font-size:20px;}
+
+em{
+  opacity:.7;
+  font-style: normal;
+  background-color: transparent;
+}
+em:hover{opacity:1;}
+
+.button{
+	top:20px;
+	width:30px; 
+	height:30px;
+	position:fixed;
+	border:1px solid black;
+	background:#ccc;
+	text-align:center;
+}
+
+.button:hover{
+	box-shadow:3px 3px 7px #999;
+	cursor: auto !important;
+}
+
+.button img{
+	width:25px;
+	height:25px;
+	margin:0 auto;
+}
+
+#dragButton{right:20px;}
+#deleteButton{right:60px;}
+
+#cc{position:absolute;width:600px;left:50%;bottom:1px;margin-left:-300px;color:#000;font-size:9px;text-align:center;}
+
+
+
+
